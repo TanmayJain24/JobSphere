@@ -28,7 +28,7 @@
 ### List of Applications
 ![Applications](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/MyApplications.png)
 
-List of Postings
+### List of Postings
 ![Postings](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/MyPostings.png)
 
 ### Profile Page
