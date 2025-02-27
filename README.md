@@ -16,7 +16,7 @@
 ![Homepage1](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/Home2.png)
 
 ### Job Categories
-![Homepage](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/Catagories.png)
+![Categories](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/Categories.png)
 
 ### Applicant and Employer View
 ![Applicant](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/ApplicantView.png)
@@ -27,6 +27,7 @@
 
 ### List of Applications
 ![Applications](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/MyApplications.png)
+
 List of Postings
 ![Postings](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/MyPostings.png)
 
