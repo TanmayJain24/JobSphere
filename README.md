@@ -9,6 +9,31 @@
 - **Search and Filtering functionalities**: for optimized job discovery and application management.
 - **Responsive UI/UX Design**: ensuring a seamless experience across both desktop and mobile platforms.
 
+## Screenshots & Preview  
+
+### Homepage  
+![Homepage](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/Home1.png)
+![Homepage1](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/Home2.png)
+
+### Job Categories
+![Homepage](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/Catagories.png)
+
+### Applicant and Employer View
+![Applicant](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/ApplicantView.png)
+![Employer](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/EmployeeView.png)
+
+### List of Jobs
+![JobList](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/JobList.png)
+
+### List of Applications
+![Applications](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/MyApplications.png)
+List of Postings
+![Postings](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/MyPostings.png)
+
+### Profile Page
+![Profile Page](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/Profile.png)
+
+
 ## Technologies Used:
 - **Frontend**: HTML, CSS, Bootstrap and JavaScript for a responsive and user-friendly interface.
 - **Backend**: Node.js and Express.js for server-side logic and handling job-related requests.
