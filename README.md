@@ -36,7 +36,7 @@
 
 
 ## Technologies Used:
-- **Frontend**: HTML, CSS, Bootstrap and JavaScript for a responsive and user-friendly interface.
+- **Frontend**: HTML, CSS, Bootstrap, and JavaScript for a responsive and user-friendly interface.
 - **Backend**: Node.js and Express.js for server-side logic and handling job-related requests.
-- **Database**: MongoDB for storing user profiles, job listings, and application data.
-- **Authentication**: Implemented using Passport for session-based authentication and bcrypt for securing user passwords.
+- **Database**: MongoDB is used to store user profiles, job listings, and application data.
+- **Authentication**: Implemented using Passport for session-based authentication and Bcrypt for securing user passwords.
