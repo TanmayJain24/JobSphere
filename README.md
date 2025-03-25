@@ -40,28 +40,50 @@
 - **Database**: MongoDB is used to store user profiles, job listings, and application data.
 - **Authentication**: Implemented using Passport for session-based authentication and Bcrypt for securing user passwords.
 
-## **Installation & Setup**
-### **1. Clone the Repository**
+## 🚀 Installation & Setup  
+
+Follow these steps to set up JobSphere on your local machine:  
+
+### **Prerequisites**  
+Ensure you have the following installed:  
+- [Node.js](https://nodejs.org/) (LTS version recommended)  
+- [MongoDB](https://www.mongodb.com/) (Ensure the MongoDB service is running)  
+- [Git](https://git-scm.com/)  
+
+### **Clone the Repository**  
 ```bash
-git clone https://github.com/TanmayJain24/BlogBuzz.git
-cd BlogBuzz
+git clone https://github.com/your-username/JobSphere.git
+cd JobSphere
 ```
 
-### **2. Install Dependencies**  
+### **Install Dependencies**  
 ```bash
 npm install
 ```
 
-### **3. Set Up Environment Variables**  
-Create a `.env` file in the root directory and add:  
-```
-PORT=5000
+### **Set Up Environment Variables**  
+Create a `.env` file in the root directory and add the following:  
+```env
+PORT=4111
+MONGO_URI=your_mongodb_connection_string
 SESSION_SECRET=your_secret_key
 ```
 
-### **4. Run the Application**  
+### **Run the Application**  
+
+#### **For Development Mode**  
+```bash
+npm run dev
+```
+
+#### **For Production Mode**  
 ```bash
 npm start
 ```
-The application will be available at `http://localhost:4111`.
+
+### **Access the Application**  
+Once the server is running, open your browser and visit:  
+```bash
+http://localhost:4111
+```
 
