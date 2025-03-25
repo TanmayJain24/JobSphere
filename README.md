@@ -34,9 +34,34 @@
 ### Profile Page
 ![Profile Page](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/Profile.png)
 
-
 ## Technologies Used:
 - **Frontend**: HTML, CSS, Bootstrap, and JavaScript for a responsive and user-friendly interface.
 - **Backend**: Node.js and Express.js for server-side logic and handling job-related requests.
 - **Database**: MongoDB is used to store user profiles, job listings, and application data.
 - **Authentication**: Implemented using Passport for session-based authentication and Bcrypt for securing user passwords.
+
+## **Installation & Setup**
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/TanmayJain24/BlogBuzz.git
+cd BlogBuzz
+```
+
+### **2. Install Dependencies**  
+```bash
+npm install
+```
+
+### **3. Set Up Environment Variables**  
+Create a `.env` file in the root directory and add:  
+```
+PORT=5000
+SESSION_SECRET=your_secret_key
+```
+
+### **4. Run the Application**  
+```bash
+npm start
+```
+The application will be available at `http://localhost:4111`.
+
