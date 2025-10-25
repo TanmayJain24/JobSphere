@@ -28,15 +28,62 @@
 ### List of Applications
 ![Applications](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/MyApplications.png)
 
-List of Postings
+### List of Postings
 ![Postings](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/MyPostings.png)
 
 ### Profile Page
 ![Profile Page](https://github.com/TanmayJain24/JobSphere/blob/main/public/images/Profile.png)
 
-
 ## Technologies Used:
-- **Frontend**: HTML, CSS, Bootstrap and JavaScript for a responsive and user-friendly interface.
+- **Frontend**: HTML, CSS, Bootstrap, and JavaScript for a responsive and user-friendly interface.
 - **Backend**: Node.js and Express.js for server-side logic and handling job-related requests.
-- **Database**: MongoDB for storing user profiles, job listings, and application data.
-- **Authentication**: Implemented using Passport for session-based authentication and bcrypt for securing user passwords.
+- **Database**: MongoDB is used to store user profiles, job listings, and application data.
+- **Authentication**: Implemented using Passport for session-based authentication and Bcrypt for securing user passwords.
+
+## 🚀 Installation & Setup  
+
+Follow these steps to set up JobSphere on your local machine:  
+
+### **Prerequisites**  
+Ensure you have the following installed:  
+- [Node.js](https://nodejs.org/) (LTS version recommended)  
+- [MongoDB](https://www.mongodb.com/) (Ensure the MongoDB service is running)  
+- [Git](https://git-scm.com/)  
+
+### **Clone the Repository**  
+```bash
+git clone https://github.com/TanmayJain24/JobSphere.git
+cd JobSphere
+```
+
+### **Install Dependencies**  
+```bash
+npm install
+```
+
+### **Set Up Environment Variables**  
+Create a `.env` file in the root directory and add the following:  
+```env
+PORT=4111
+MONGO_URI=your_mongodb_connection_string
+SESSION_SECRET=your_secret_key
+```
+
+### **Run the Application**  
+
+#### **For Development Mode**  
+```bash
+npm run dev
+```
+
+#### **For Production Mode**  
+```bash
+npm start
+```
+
+### **Access the Application**  
+Once the server is running, open your browser and visit:  
+```bash
+http://localhost:4111
+```
+
