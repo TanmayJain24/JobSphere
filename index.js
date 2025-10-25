@@ -5,6 +5,7 @@ var path = require("path");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const session = require('express-session');
+const MongoStore = require('connect-mongo');
 dotenv.config();
 const passport = require("passport");
 const MONGO_URI = process.env.MONGO_URI;
@@ -38,10 +39,12 @@ app.set("view engine", "ejs");
 //BodyParsing
 app.use(express.urlencoded({ extended: false }));
 app.use(session({
-    secret: Session_Secret,
-    saveUninitialized: true,
-    resave: true
-  }));
+  secret: process.env.SESSION_SECRET || 'yoursecret',
+  resave: false,
+  saveUninitialized: false,
+  store: MongoStore.create({ mongoUrl: process.env.MONGO_URI }),
+  cookie: { maxAge: 1000 * 60 * 60 * 24 }
+}));
   
 
 app.use(passport.initialize());

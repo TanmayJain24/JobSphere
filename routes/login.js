@@ -7,7 +7,7 @@ const {
   logoutView
 } = require("../controllers/loginController");
 const { dashboardView } = require("../controllers/dashboardController");
-const { profileView } = require("../controllers/ProfileController");
+const { profileView } = require("../controllers/profileController");
 const { protectRoute } = require("../auth/protect");
 
 const router = express.Router();
