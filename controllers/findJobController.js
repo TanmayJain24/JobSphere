@@ -37,7 +37,7 @@ const applyJobView = async (req, res) => {
         email: email,
         phone: phone,
         portfolio: portfolio,
-        resumePath: req.file.path,
+        resumePath: req.body.resume,
         additionalInfo: additionalInfo,
       });
     
